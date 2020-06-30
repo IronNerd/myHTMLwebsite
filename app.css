@@ -1,0 +1,98 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #d9e6f3;
+  font-weight: 400;
+  color: hsla(357, 68%, 17%, 0.692);
+}
+
+h1,
+h2 {
+  font-variant-caps: all-small-caps;
+  letter-spacing: .1rem;
+}
+
+.dumbo {
+  width: 550px;
+}
+
+img {
+  border-radius: 25%;
+}
+
+hr {
+  margin-top: 3rem;
+}
+
+.icons {
+  color: rgba(221, 25, 162, 0.877);
+  font-size: 2rem;
+  margin: 0rem 0rem;
+}
+
+button {
+  margin-left: 15px;
+  color: darkslateblue;
+  border: 1px solid darkblue;
+  background-color: #eeebeb;
+  font-weight: 400;
+  font-variant-caps: all-small-caps;
+  border-radius: .2em;
+}
+
+button:hover {
+  border: 2px solid darkblue;
+  font-weight: 700;
+  color: maroon;
+}
+
+.closerup {
+  margin-top: 10px;
+}
+
+.endmargin {
+  color: rgb(173, 219, 219);
+}
+
+.invDat,
+td {
+  border: 1px solid black;
+}
+
+/* start of Table Styling */
+table {
+  border-collapse: collapse;
+  border: 2px solid #1a237e;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td,
+th {
+  border: 1px solid #b0bec5;
+  padding: 10px 20px;
+}
+
+th {
+  background-color: #e8eaf6;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: #f5f5f5;
+}
+
+tr:nth-child(odd) td {
+  background-color: #fafafa;
+}
+
+caption {
+  padding: 15px;
+}
+
+/* end of Table Styling */
